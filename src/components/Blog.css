@@ -1,0 +1,37 @@
+section#blog{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background: linear-gradient(0deg, rgba(252, 252, 252, 0.7), rgba(252, 252, 252, 0.7)),url("../assets/img/blog_img2.jpg") ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    min-height: 400px;
+  }
+  
+#blog .section-heading {
+    text-transform: capitalize;
+}
+#blog .section-heading::after{
+    height: 0;
+}
+#blog #join-btn{
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+#blog #email-input{
+    height: 44px;
+    width: 100%;
+    max-width: 18rem;
+    outline: none;
+    padding: 0 1rem;
+    font-size: 1.1rem;
+    border: 1px solid var(--sea-green);
+    border-top-left-radius: 0.4rem;
+    border-bottom-left-radius: 0.4rem;
+}
+
+  
+
