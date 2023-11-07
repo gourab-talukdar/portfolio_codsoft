@@ -1,6 +1,5 @@
 import React from 'react';
 import HeroImg from '../assets/img/hero_img.gif';
-import { Link } from 'react-router-dom';
 import { Link as LinkScroll } from 'react-scroll';
 import './Hero.css';
 
@@ -15,7 +14,7 @@ const Hero = () => {
         <p className='para'>I am a professional web developer, who designs, creates, and maintains websites, using various technologies to ensure a seamless and user-friendly online experience with awesome responsive UI.</p>
 
         <div className='primary-link'>
-            <Link to='/' className='d-oflex align-center'>About Me <span className="material-icons material-symbols-outlined">navigate_next</span></Link>
+          <LinkScroll to='about' className=' d-oflex align-center' spy={true} smooth={true} offset={10} duration={200} >About Me <span className="material-icons material-symbols-outlined">navigate_next</span></LinkScroll>
         </div>
         <LinkScroll to='contact' className='primary-btn' spy={true} smooth={true} offset={10} duration={200} >Hire Me</LinkScroll>
       </div>

@@ -132,6 +132,7 @@ span.material-icons{
 .primary-link{
   font-weight: 500;
   font-size: 1.1rem;
+  cursor: pointer;
   position: relative;
 }
 .primary-link::before{
